@@ -1,0 +1,23 @@
+.footer {
+    align-items: center;
+    background-color: var(--colorPaleBlue);
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.brand-tagline-1 {
+color: var(--colorDarkBlue);
+font-size: 2em;
+line-height: 1.1;
+}
+.brand-tagline-2 {
+color: var(--colorMidBlue);
+font-size: 2em;
+line-height: 1.1;
+}
+.brand-tagline-separator {
+color: var(--colorCoral);
+font-size: 2em;
+line-height: 1.1;
+}

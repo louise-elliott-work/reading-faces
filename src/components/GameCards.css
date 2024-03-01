@@ -1,0 +1,7 @@
+.game-card {
+    background-color: var(--colorPeach);
+    border-color: var(--colorCoral);
+    border-style: solid;
+    border-radius: 15px;
+    margin: 40px;
+}

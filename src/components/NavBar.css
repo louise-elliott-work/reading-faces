@@ -1,0 +1,15 @@
+.nav-link {
+    color: var(--colorMidBlue);
+    font-size: 2em;
+    font-weight: 500;
+    margin: 40px;
+    padding: 10px;
+    text-decoration: inherit;
+}
+.nav.link:hover {
+color: var(--colorDarkBlue);
+}
+.nav-link.active {
+background-color: var(--colorPeach);
+color: var(--colorDarkBlue);
+}
