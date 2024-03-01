@@ -1,0 +1,18 @@
+.headshot-container {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+.headshot {
+    border-color: var(--colorCoral);
+    border-radius: 500px;
+    border-style: solid;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.envelope, .linkedin, .github {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
