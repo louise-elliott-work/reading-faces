@@ -1,0 +1,72 @@
+[
+    {
+        "id":1,
+        "name":"happy",
+        "image":"./happy.jpg",
+        "description":"...",
+        "attribution":"Photo by Sincerely Media on Unsplash"
+    },
+    {
+        "id":2,
+        "name":"confused",
+        "image":"./confused.jpg",
+        "description":"...",
+        "attribution":"Photo by OSPAN ALI on Unsplash"
+    },
+    {
+        "id":3,
+        "name":"angry",
+        "image":"./angry.jpg",
+        "description":"...",
+        "attribution":"Photo by Yogendra Singh on Unsplash"
+    },
+    {
+        "id":4,
+        "name":"bored",
+        "image":"./bored.jpg",
+        "description":"...",
+        "attribution":"Photo by Ekoate Nwaforlor Singh on Unsplash"
+    },
+    {
+        "id":5,
+        "name":"sad",
+        "image":"./sad.jpg",
+        "description":"...",
+        "attribution":"Photo by Arwan Sutanto on Unsplash"
+    },
+    {
+        "id":6,
+        "name":"embarassed",
+        "image":"./embarassed.jpg",
+        "description":"...",
+        "attribution":"Photo by tabitha turner on Unsplash"
+    },
+    {
+        "id":7,
+        "name":"scared",
+        "image":"./scared.jpg",
+        "description":"...",
+        "attribution":"Photo by Ivan Lapyrin on Unsplash"
+    },
+    {
+        "id":8,
+        "name":"worried",
+        "image":"./worried.jpg",
+        "description":"...",
+        "attribution":"Photo by Nathan Dumlao on Unsplash"
+    },
+    {
+        "id":9,
+        "name":"surprised",
+        "image":"./surprised.jpg",
+        "description":"...",
+        "attribution":"Photo by Tim Mossholder on Unsplash"
+    },
+    {
+        "id":10,
+        "name":"calm",
+        "image":"./calm.jpg",
+        "description":"...",
+        "attribution":"Photo by Shane on Unsplash"
+    }
+]
