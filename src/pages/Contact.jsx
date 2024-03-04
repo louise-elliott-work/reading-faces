@@ -1,9 +1,11 @@
+import React from "react";
+import Bio from "../components/Bio";
+
 const Contact = () => {
     return (
-        <div className="content">
-            <h1>Contact</h1>
-            <p>Bio here with picture, info and links</p>
-        </div>
+        <>
+            <Bio />
+        </>
     )
 };
 

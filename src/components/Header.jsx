@@ -5,8 +5,8 @@ import './Header.css';
 const Header = () => {
     return (
         <div className="header">
-            <img src="/icon-placeholder.svg" alt={`...`} height="60px"/>
-            <p className="name">Feelings and faces</p>
+            <img src="/circle-question-regular.svg" alt={`...`} height="60px"/>
+            <p className="name">Reading faces</p>
             <section className="navbar"><NavBar /></section>
         </div>
     )
