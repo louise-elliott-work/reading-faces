@@ -25,6 +25,7 @@ p {
 
 .content {
   height: 800px;
+  margin: 15px;
 }
 
 /* :root {
