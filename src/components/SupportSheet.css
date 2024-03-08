@@ -1,32 +1,29 @@
-.support-sheet-toggle {
+.button-label {
     color: var(--colorMidBlue);
-    font-size: 2em;
-    font-weight: 500;
-    margin: 10px;
+    display: flex;
+    font-size: 1.5em;
+    font-weight: bold;
+    left: 50%;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    top: 55%;
+    transform: translate(-50%, -50%);
 }
-.reference-grid {
-flex-wrap: wrap;
-align-items: stretch;
-display: flex;
-list-style: none !important;
-padding-inline: 0;
+.help-button {
+    height: 200px;
 }
-.image-container {
-height: 100px;
-width: 100px;
-margin: 10px;
+.support-sheet-toggle {
+    background-color: transparent;
+    border: none !important;
+    grid-column: 1/2;
+    position: relative;
+    text-align: center;
 }
-.emotion-image {
-border-color: var(--colorCoral);
-border-radius: 10px;
-border-style: solid;
-height: 100%;
-object-fit: cover;
-width: 100%;
+.support-carousel {
+    grid-column: 2/3;  
 }
-.emotion-name {
-margin: 10px;
-display: flex;
-justify-content: center;
-color: var(--colorMidBlue)
+.support-section {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }

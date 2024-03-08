@@ -5,11 +5,10 @@ import SupportSheet from "../components/SupportSheet";
 
 const Game = () => {
     return (
-        <div className="content">
-            <h1>Game</h1>
-            <SupportSheet />
-            <Stopwatch />
-            <GameCards />
+        <div className="content game">
+            <SupportSheet className="support-sheet"/>
+            <Stopwatch className="stopwatch"/>
+            <GameCards className="game-cards"/>
         </div>
     )
 };

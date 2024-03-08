@@ -34,7 +34,6 @@ const Stopwatch = () => {
 
     return (
         <>
-            <p>You can use this stopwatch to see how fast you can complete the game</p>
             <div className="stop-watch">
                 <Timer time={time} />
                 <StopwatchButtons

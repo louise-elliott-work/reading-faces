@@ -7,8 +7,7 @@ const Bio = () => {
     return (
         <>
             <div className="content">
-                <h1>Contact</h1>
-                <p>summary info here</p>
+                <p>summary info to go here</p>
                 <p>Louise Elliott - March 2024</p>
                 <div className="headshot-container"><img className="headshot" src="/headshot.jpg" alt={`Headshot of Louise Elliott`} /></div>
                 <div className="links">
