@@ -1,5 +1,5 @@
 import React, {useState, useCallback} from 'react';
-import reference from "/src/reference.json";
+import EmotionsCarousel from './EmotionsCarousel';
 import './SupportSheet.css';
 
 const SupportSheet = () => {
@@ -9,20 +9,15 @@ const SupportSheet = () => {
         return [state, toggle];
     }
     const [toggle, setToggle] = useToggle();
+
     return (
         <>
-            <button className="support-sheet-toggle" onClick={setToggle}> Show/Hide Support Sheet </button>
-            {toggle && (
-                <ul className="reference-grid">
-                    {reference.map((emotion) => (
-                        <li key={emotion.id}>
-                            <div className="image-container"><img className= "emotion-image" src={emotion.image} alt={`Photo of ${emotion.name}`} /></div>
-                            <h3 className="emotion-name">{emotion.name}</h3>
-                        </li>
-                    ))}
-                </ul>
-            )}
-
+            <div className='support-section'>
+                <button className="support-sheet-toggle" onClick={setToggle}> <img src="/star-regular.svg" className="help-button"></img> <p className="button-label">Show help</p> </button>
+                {toggle && (
+                    <EmotionsCarousel className="support-carousel"/>
+                )}
+            </div>
         </>
     )
 };

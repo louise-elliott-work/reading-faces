@@ -13,9 +13,8 @@ const GameCards = () => {
 
     return (
         <>
-            <div>Game Cards below</div>
-
-            <ul className="reference-grid">
+            <p>Click on a card to turn it over and find the pairs</p>
+            <ul>
                     {reference.map((emotion) => toggle && (
                         <button className="game-card" key={emotion.id} onClick={setToggle}>
                             <div className="image-container"><img className= "emotion-image" src={emotion.image} alt={`Photo of ${emotion.name}`} /></div>

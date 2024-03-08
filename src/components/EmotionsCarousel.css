@@ -1,0 +1,18 @@
+.emotion-image {
+    border-color: var(--colorCoral);
+    border-radius: 10px;
+    border-style: solid;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.emotion-name {
+    color: var(--colorMidBlue);
+    margin: 10px;
+    justify-content: center;
+}
+.image-container {
+    height: 100px;
+    margin: 10px;
+    width: 100px;
+}

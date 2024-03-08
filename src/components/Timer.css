@@ -1,0 +1,18 @@
+.digits {
+    color: #84dcc6;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.timer {
+    align-items: center;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 20px;
+    color: #84dcc6;
+    display: flex;
+    font-weight: bold;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    padding: 10px;
+}
