@@ -29,7 +29,7 @@ const GameCards = () => {
 
     return (
         <>
-            <p>Click on a card to turn it over and find the pairs</p>
+            <p className='instruction'>Click on a card to turn it over and find the pairs</p>
             <div className="cards-grid">
                     {reference.map((emotion) => (
                         <div key={emotion.id}>

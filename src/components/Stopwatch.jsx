@@ -34,7 +34,7 @@ const Stopwatch = () => {
 
     return (
         <>
-            <div className="stop-watch">
+            <div className="stopwatch">
                 <Timer time={time} />
                 <StopwatchButtons
                     active={isActive}
