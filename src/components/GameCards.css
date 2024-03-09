@@ -20,7 +20,7 @@
     width: 200px;
     margin: 40px;
 }
-.single-card-turned {
+.active-card {
     background-color: var(--colorLightBlue);
     border-color: var(--colorCoral);
     border-radius: 20px;
@@ -28,4 +28,7 @@
     border-width: 10px;
     height: 200px;
     width: 200px;
+}
+.inactive-card {
+    opacity: 0%;
 }
