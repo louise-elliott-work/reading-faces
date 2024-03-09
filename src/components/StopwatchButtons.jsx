@@ -1,21 +1,22 @@
 import React from "react";
+import './StopwatchButtons.css';
 
 const StopwatchButtons = (props) => {
 	const StartButton = (
-		<div className="stopwatchButton"
+		<div className="stopButton"
 			onClick={props.handleStart}>
 			Stop
 		</div>
 	);
 	const ResetButton = (
-        <div className="stopwatchButton"
+        <div className="startButton"
             onClick={props.handleReset}>
-            Start again
+            Restart
         </div>
 	);
 
 	return (
-		<div className="stopwatchButton">
+		<div>
 			<div>{props.active ? ResetButton : StartButton}</div>
 		</div>
 	);

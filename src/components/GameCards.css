@@ -10,6 +10,10 @@
     object-fit: cover;
     width: 100%;
 }
+.instruction {
+    margin-left: 40px;
+    margin-top: 50px;
+}
 .single-card {
     background-color: var(--colorLightBlue);
     border-color: var(--colorCoral);

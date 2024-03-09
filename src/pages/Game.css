@@ -1,0 +1,20 @@
+.game-page {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 2;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.support-sheet {
+    grid-column: 1;
+    grid-row: 1;
+}
+.stopwatch {
+    grid-column: 2;
+    grid-row: 1;
+    position: absolute;
+    right: 5%;
+}
+.game-cards {
+    grid-row: 2;
+}
