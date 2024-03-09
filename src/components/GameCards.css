@@ -1,7 +1,17 @@
-.game-card {
-    background-color: var(--colorPeach);
+.cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    list-style: none;
+}
+.single-card {
+    background-color: var(--colorLightBlue);
     border-color: var(--colorCoral);
+    border-radius: 20px;
     border-style: solid;
-    border-radius: 15px;
+    border-width: 10px;
+    height: 300px;
+    list-style: none;
     margin: 40px;
+    width: 200px;
 }

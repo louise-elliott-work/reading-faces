@@ -14,15 +14,22 @@ const GameCards = () => {
     return (
         <>
             <p>Click on a card to turn it over and find the pairs</p>
-            <ul>
+            <div className="cards-grid">
                     {reference.map((emotion) => toggle && (
-                        <button className="game-card" key={emotion.id} onClick={setToggle}>
-                            <div className="image-container"><img className= "emotion-image" src={emotion.image} alt={`Photo of ${emotion.name}`} /></div>
-                            <p className="emotion-name">{emotion.name}</p>
-                        </button>
+                        <div key={emotion.id}>
+                            <div>
+                                <button className="single-card" key={emotion.image} onClick={setToggle}>
+                                    <div className="image-container single-card-turned"><img className= "emotion-image" src={emotion.image} alt={`Photo of ${emotion.name}`} /></div>
+                                </button>
+                            </div>
+                            <div>
+                                <button className="single-card" key={emotion.name} onClick={setToggle}>
+                                    <p className="emotion-name single-card-turned">{emotion.name}</p>
+                                </button>
+                            </div>
+                        </div>
                     ))}
-            </ul>
-            
+            </div>
         </>
     )
 };
