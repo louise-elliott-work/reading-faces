@@ -1,0 +1,12 @@
+.envelope, .linkedin, .github {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+.links {
+    grid-column: 2/3;
+    grid-row: 2;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+}

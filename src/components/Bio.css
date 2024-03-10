@@ -1,18 +1,10 @@
-.headshot-container {
-    height: 300px;
-    width: 300px;
-    margin: 10px;
+.bio {
+    grid-column: 1/2;
+    grid-row: 1/3;
 }
-.headshot {
-    border-color: var(--colorCoral);
-    border-radius: 500px;
-    border-style: solid;
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
+.key-areas {
+    color: var(--colorCoral);
 }
-.envelope, .linkedin, .github {
-    height: 30px;
-    width: 30px;
-    margin: 10px;
+.professional-role {
+    color: var(--colorMidBlue);
 }

@@ -1,0 +1,15 @@
+.headshot {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-color: var(--colorCoral);
+    border-radius: 500px;
+    border-style: solid;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.headshot-container {
+    height: 300px;
+    width: 300px;
+    margin: 10px 40px 10px 0;
+}
