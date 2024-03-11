@@ -1,3 +1,26 @@
+.carousel-control-prev, .carousel-control-next {
+    background-color: lightgrey;
+    border-style: solid;
+    border-radius: 20px;
+    height: 200px;
+    margin: 10px;
+
+}
+.carousel-indicators {
+    background-color: pink;
+    border-radius: 10px;
+    top: 90%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-inner {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
 .emotion-image {
     border-color: var(--colorCoral);
     border-radius: 10px;
@@ -8,11 +31,9 @@
 }
 .emotion-name {
     color: var(--colorMidBlue);
-    margin: 10px;
     justify-content: center;
 }
 .image-container {
     height: 100px;
-    margin: 10px;
     width: 100px;
 }
