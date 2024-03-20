@@ -36,21 +36,28 @@ const GameCards = () => {
     }
     createNewTestArray(newTestArray);
 
+// TODO this would need to be the names of the emotions having looped through the json reference file
+let namesOnly;
+const namesOnlyArray = () => {
+    namesOnly = [reference[0].name, reference[1].name, reference[2].name, reference[3].name, reference[4].name, reference[5].name];
+    console.log(namesOnly);
+    return(namesOnly)
+}
+namesOnlyArray(namesOnly);
 
-const basicTestArray = ['a','b','c'];
+const basicTestArray = namesOnly;
 console.log(basicTestArray);
 
-        // * Fisher-Yates sorting algorithm used for card shuffling
-        const basicTestArrayShuffled = (basicTestArray) => { 
-            let currentIndex = basicTestArray.length,  randomIndex;
-            while (currentIndex > 0) {
-                randomIndex = Math.floor(Math.random() * currentIndex);
-                currentIndex--;
-                [basicTestArray[currentIndex], basicTestArray[randomIndex]] = [basicTestArray[randomIndex], basicTestArray[currentIndex]];
-            }
-        }
-        basicTestArrayShuffled(basicTestArray);
-
+// * Fisher-Yates sorting algorithm used for card shuffling
+const basicTestArrayShuffled = (basicTestArray) => { 
+    let currentIndex = basicTestArray.length,  randomIndex;
+    while (currentIndex > 0) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+        [basicTestArray[currentIndex], basicTestArray[randomIndex]] = [basicTestArray[randomIndex], basicTestArray[currentIndex]];
+    }
+}
+basicTestArrayShuffled(basicTestArray);
 console.log(basicTestArray);
 
 
