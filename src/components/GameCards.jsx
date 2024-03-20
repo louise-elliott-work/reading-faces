@@ -4,6 +4,16 @@ import './GameCards.css';
 
 const GameCards = () => {
 
+//! Test new array of names and images combined
+const createNewArray = (newArray) => { 
+    let nameArrayTest = ['happy', 'confused', 'sad'];
+    let imageArrayTest = ['test1', 'test2', 'test3'];
+    newArray = nameArrayTest.concat(imageArrayTest);
+    console.log(newArray);
+    return newArray;
+    }
+createNewArray();
+
     // TODO Amend so clicking a card, turns over that card only
     const [cardState, setCardState] = useState(false);
     const handleClick= () => {
