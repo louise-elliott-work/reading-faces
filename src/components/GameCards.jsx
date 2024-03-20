@@ -4,16 +4,6 @@ import './GameCards.css';
 
 const GameCards = () => {
 
-//! Test new array of names and images combined
-const createNewArray = (newArray) => { 
-    let nameArrayTest = ['happy', 'confused', 'sad'];
-    let imageArrayTest = ['test1', 'test2', 'test3'];
-    newArray = nameArrayTest.concat(imageArrayTest);
-    console.log(newArray);
-    return newArray;
-    }
-createNewArray();
-
     // TODO Amend so clicking a card, turns over that card only
     const [cardState, setCardState] = useState(false);
     const handleClick= () => {
@@ -24,18 +14,49 @@ createNewArray();
     // * Assign relevant class name to toggle card between active and inactive
     let stateCheck = cardState ? 'active-card' : 'inactive-card';
 
+    // // * Fisher-Yates sorting algorithm used for card shuffling
+    // const shuffleCards = (reference) => { 
+    //     let currentIndex = reference.length,  randomIndex;
+    //     while (currentIndex > 0) {
+    //         randomIndex = Math.floor(Math.random() * currentIndex);
+    //         currentIndex--;
+    //         [reference[currentIndex], reference[randomIndex]] = [reference[randomIndex], reference[currentIndex]];
+    //     }
+    //     return reference;
+    // }
+    // // TODO Amend so card order is randomised each time the game ends of the page loads
+    // shuffleCards(reference);
+
+
+
+    //! Test new array of names and images combined
+    const createNewTestArray = (newTestArray) => { 
+        let nameArrayTest = ['happy', 'confused', 'sad'];
+        let imageArrayTest = ['test1', 'test2', 'test3'];
+        newTestArray = nameArrayTest.concat(imageArrayTest);
+        console.log(newTestArray);
+
     // * Fisher-Yates sorting algorithm used for card shuffling
-    const shuffleCards = (reference) => { 
-        let currentIndex = reference.length,  randomIndex;
+    const shuffleTestCards = (newTestArray) => { 
+        let currentIndex = newTestArray.length,  randomIndex;
         while (currentIndex > 0) {
             randomIndex = Math.floor(Math.random() * currentIndex);
             currentIndex--;
-            [reference[currentIndex], reference[randomIndex]] = [reference[randomIndex], reference[currentIndex]];
+            [newTestArray[currentIndex], newTestArray[randomIndex]] = [newTestArray[randomIndex], newTestArray[currentIndex]];
         }
-        return reference;
     }
     // TODO Amend so card order is randomised each time the game ends of the page loads
-    shuffleCards(reference);
+    shuffleTestCards(newTestArray);
+    console.log(newTestArray);
+
+
+    }
+    createNewTestArray();
+
+
+
+
+
 
     return (
         <>
