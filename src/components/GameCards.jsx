@@ -55,8 +55,8 @@ const GameCards = () => {
             <p className='instruction'>Click on a card to turn it over and find the pairs</p>
             <div className="cards-grid">
                 {namesOnly.map((emotion, index) => (
-                    <button key={index} className="single-card text" onClick={handleClick}>
-                        <div className={`${stateCheck}`}><p>{emotion}</p></div>
+                    <button key={index} className="single-card" onClick={handleClick}>
+                        <div className={`${stateCheck}`}><p className="text">{emotion}</p></div>
                     </button>
                 ))}
                 {imagesOnly.map((emotion, index) => (
